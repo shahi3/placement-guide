@@ -1,0 +1,19 @@
+# Node modules
+frontend/node_modules/
+backend/node_modules/
+
+# Environment variables
+backend/.env
+frontend/.env
+
+# Optional: OS files
+.DS_Store
+Thumbs.db
+
+# Optional: Logs
+*.log
+
+# Uploaded content (keep the folders via .gitkeep, ignore the files)
+backend/uploads/*
+!backend/uploads/*/
+!backend/uploads/*/.gitkeep
